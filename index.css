@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(205, 205, 205)
+}
+
+.top {
+    margin: 0px auto;
+    display: table;
+    margin: 0 auto;
+}
+
+.top nav {
+    background-color:rgb(205, 205, 205)
+}
+
+.my_photo {
+    width: 160px;
+}
+
+
+.contact ul {
+    padding: 0;
+    list-style: none;
+}
+
+.contact ul li {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+}
+
+.contact ul li a {
+    color: rgb(205, 205, 205)
+}
+
+.contact ul li a:hover {
+    color: rgb(249, 249, 249);
+}
+
+.fixed_bg, .infos{
+    position: relative;
+    height: 100%;
+}
+.fixed_bg{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bg_1{
+    color: #ffffff;
+}
+.bg_2{
+    color: rgb(243, 243, 243);
+}
+.bg_3{
+    background-image: url(images/IMG_7401.jpg);
+    color: #ffffff;
+}
+.bg_4{
+    color: rgb(255, 255, 255);
+}
+
+#a {
+    display: block;
+    height: 800px;
+    background-color: rgb(165, 152, 167);
+}
+
+#b {
+    display: block;
+    height: 800px;
+    background-color: rgb(165, 152, 167);
+}
+
+#c {
+    display: block;
+    height: 800px;
+    background-color: rgb(165, 152, 167);
+}
+
+#d {
+    display: block;
+    height: 800px;
+    background-color: rgb(165, 152, 167);
+}
+
+.link {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.move {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.825);
+    text-decoration: none;
+    padding: 0px 25px;
+}
+
+.move:hover {
+    color: rgb(244, 145, 69);
+}
+
+/* Go Top 按鈕 */
+#goTop {
+    position: fixed;
+    bottom: 10px;
+    /* 與下方的距離, 也可改為百分比, 即為距離螢幕下方的百分比 */
+    right: 15px;
+    /* 與右方的距離 */
+    width: 40px;
+    /* 按鈕原始寬度 */
+    height: 40px;
+    /* 按鈕原始高度 */
+    opacity: 1.0;
+    /* 按鈕原始透明度 */
+    z-index: 10;
+    cursor: pointer;
+    transition: all .5s;
+    /* 動畫效果 持續期間 */
+    -webkit-transition: all .0s;
+    -moz-transition: all .5s;
+}
